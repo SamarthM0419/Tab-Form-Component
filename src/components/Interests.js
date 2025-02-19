@@ -1,6 +1,6 @@
 import React from "react";
 
-const Interests = ({ data, setData }) => {
+const Interests = ({ data, setData ,errors }) => {
   const { interests } = data;
   const handleDataChange = (e, name) => {
     setData((prev) => ({
@@ -42,6 +42,7 @@ const Interests = ({ data, setData }) => {
           Movies
         </label>
       </div>
+      {errors.interests && <span className="error">{errors.interests}</span>}
     </div>
   );
 };

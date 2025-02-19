@@ -14,3 +14,9 @@
   height: 200px;
   padding: 5px;
 }
+
+.error{
+  color: red;
+  display: block;
+  font-size: small;
+}
