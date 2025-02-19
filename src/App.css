@@ -1,0 +1,16 @@
+.heading-container {
+  display: flex;
+}
+
+.heading {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tab-body {
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+  padding: 5px;
+}
